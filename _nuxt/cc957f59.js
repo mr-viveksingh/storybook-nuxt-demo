@@ -1,0 +1,1 @@
+var t=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function a(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}function n(e,o){if(!e)throw new Error(o||"unknown assertion error")}var r=n;export{r as a,t as c,a as g};

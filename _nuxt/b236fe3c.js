@@ -1,0 +1,3 @@
+import{u as n}from"./e0e574bd.js";import{d as c,o as m,b as l,f as e,t as p,u as i,F as u}from"./18e26a01.js";import"./507e075a.js";const _=e("h1",null," Using composables : ",-1),d=e("h5",null,"runtime config :",-1),f=c({__name:"MyComposable",setup(g){const{config:r}=n();return(C,b)=>(m(),l(u,null,[_,d,e("pre",null,p(JSON.stringify(i(r),null,2)),1)],64))}}),S={title:"Example/Composables Story",component:f,tags:["autodocs"]},o={args:{}};var s,a,t;o.parameters={...o.parameters,docs:{...(s=o.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {}
+}`,...(t=(a=o.parameters)==null?void 0:a.docs)==null?void 0:t.source}}};const B=["UserConfigComposable"];export{o as UserConfigComposable,B as __namedExportsOrder,S as default};
