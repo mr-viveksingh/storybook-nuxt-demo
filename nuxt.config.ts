@@ -2,21 +2,14 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [
-    '@nuxt/image',
-    '@pinia/nuxt',
-  ],
-  runtimeConfig: {
-    app: {
-      name: 'Nuxt',
-      version: '1.0.0',
-      baseURL:'/'
-    },
-  },
+  modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "@pinia/nuxt"],
+
   pinia: {
-    autoImports: ['defineStore', 'acceptHMRUpdate'],
+    autoImports: ["defineStore", "acceptHMRUpdate"],
   },
+
+  components: true,
   imports: {
-    dirs: ['./stores'],
+    dirs: ["./stores"],
   },
-})
+});
